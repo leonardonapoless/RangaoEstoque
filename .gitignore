@@ -5,7 +5,6 @@
 *.log
 
 # Arquivos de pacotes (Arquivos compactados)
-*.jar
 *.war
 *.nar
 *.ear
