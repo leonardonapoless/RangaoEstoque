@@ -1,0 +1,81 @@
+# Arquivos compilados (Java)
+*.class
+
+# Arquivos de log
+*.log
+
+# Arquivos de pacotes (Arquivos compactados)
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs de erro da máquina virtual Java
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Arquivos do Eclipse
+# =========================
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Construtores de ferramentas externas
+.externalToolBuilders/
+
+# Configurações locais de inicialização do Eclipse
+*.launch
+
+# Processador de anotações Java (APT)
+.factorypath
+
+# Arquivos de projeto do Eclipse 
+# (Descomente as linhas abaixo se não quiser compartilhar as configurações do Eclipse com a equipe)
+# .project
+# .classpath
+
+# =========================
+# Ferramentas de Build (Opcional, mas recomendado)
+# =========================
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# =========================
+# Arquivos do Sistema Operacional
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
